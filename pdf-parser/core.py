@@ -47,7 +47,7 @@ data = {
 
 df= pd.DataFrame(data)
 
-df.T.to_excel("output.xlsx")
+df.to_excel("output.xlsx")
 # for r in result:
 #     print(r["name"])
 #     print(r["gstin"])
