@@ -11,5 +11,5 @@ def fileUpload():
     window.title("Select one or multiple files")
     window.withdraw()
 
-    return filedialog.askopenfilename()
+    return filedialog.askopenfilenames()
     
